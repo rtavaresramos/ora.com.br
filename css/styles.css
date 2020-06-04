@@ -163,9 +163,11 @@ header{
 
     color: var(--light-color);
     text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
     background: var(--primary-color);
     padding: 6px;
-
+    font-family: var(--opens);
 }
 
 .header__content p{
