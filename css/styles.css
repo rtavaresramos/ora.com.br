@@ -129,41 +129,43 @@ ul{
 
 header{
     width: 100vw;
-    height: auto;
-    padding-bottom: 30px;
+  
+    padding-bottom: 120px;
+    background-image: url('/img/question.png');
+    background-repeat: no-repeat;
+    background-position: center right;
 
 }
 
 .header__container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: initial;
     text-align: center;
     align-items: center;
 
 
-    padding: 30px 20px;
+    padding: 0 50px;
 }
 
 .header__img{
-    margin-right: 50px;
+
 }
-.header__img img{
+
+
+.sub p{
+    padding: 10px;
     width: 400px;
 }
-
-.header__content{
-    width: 550px;
-}
-
-.header__content h1{
+ .header__container h1{
     font-size: 35px;
     color: var(--secundary-color);
     text-align: left;
     line-height: 60px;
+    margin-left: 10px ;
 }
 
-.header__content h1 span{
+.header__container h1 span{
 
     color: var(--light-color);
     text-transform: uppercase;
@@ -203,7 +205,7 @@ header{
     border-radius: 6px;
     border-bottom: 3px solid #B06F01;
     height: 100%;
-    width: 100%;
+    width: 80%;
 
   
 }
@@ -278,6 +280,11 @@ border-bottom: none;
 }
 .section__wwr__content .content h3{
     font-size: 16px;
+    color: var(--secundary-color);
+}
+.section__wwr__content .content p{
+    text-align: justify;
+    color: var(--secundary-color);
 }
 .section__wwr__container .img{
     display: flex;
@@ -297,13 +304,17 @@ border-bottom: none;
 }
 
 .section__who-we-are h2{
-    color: #fff;
+    color: var(--secundary-color);
     font-size: 32px;
     font-weight: 600;
 }
 /* How it works */
 
-
+.adv__container h2{
+    font-size: 32px;
+    margin: 0 auto;
+    /* color: var(--secundary-color); */
+}
 .adv__content {
     display: flex;
     flex-wrap: wrap;
@@ -323,7 +334,9 @@ border-bottom: none;
 .hit__content{
     width: 700px;
 }
-
+.hit__content h3{
+    text-transform: uppercase;
+}
 .hit__content p{
     max-width: 700px;
    margin:  0 10px;
