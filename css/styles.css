@@ -68,11 +68,8 @@ nav{
   .toggle i{
   
     display: none;
-    border: 1px solid #fff;
     padding: 8px 12px;
-    color: #fff;
-    border-radius: 4px;
-  
+    color: #fff;  
     cursor: pointer;
   }
 
@@ -188,6 +185,7 @@ header{
     align-items: center;
     text-align: center;
     height: 70px;
+    padding: 40px;
 }
 
 .button{
@@ -200,12 +198,13 @@ header{
     font-weight: 600;
     background: var(--primary-color);
 
-    padding: 0 30px;
+    padding: 0 100px;
+
 
     border-radius: 6px;
     border-bottom: 3px solid #B06F01;
     height: 100%;
-    width: 80%;
+
 
   
 }
