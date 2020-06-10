@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root{
+
+    /* Colors */
+    --primary-color:#fb9e02;
+    --primary-light-color: rgba(251,158,2,.2);
+    --secundary-color:#393838;
+    --light-color: #fff;
+    --grey-color:#EEEEEE;
+
+
+    /* Fonts */
+    --mont:'Montserrat', sans-serif;
+    --opens:'Open Sans', sans-serif;
+    --lato:'Lato', sans-serif;
+}
+
+
+
+.section__services__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+  text-align: center;
+  width: auto;
+  margin: 0 10px;
+  min-height: 55vh;
+
+
+}
+
+.section__services__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.section__services__content .content{
+  width: 250px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section__services h2{
+  color: var(--secundary-color);
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.section__services h3{
+  color: var(--secundary-color);
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.section__services__container .img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(251,158,2,.3);
+
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--light-color);
+  box-shadow: 0 0  10px  rgba(0,0,0,.5);
+}
+.section__services__container .img img{
+  width: 200px;
+}
+
+.section__services__content .content h2{
+  font-size: 24px;
+}
+.section__services__content .content h3{
+  font-size: 14px;
+  color: var(--secundary-color);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.section__services__content .content p{
+  text-align: justify;
+  color: var(--secundary-color);
+}
