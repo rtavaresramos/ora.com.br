@@ -140,19 +140,12 @@ header{
     justify-content: initial;
     text-align: center;
     align-items: center;
-
-
     padding: 0 50px;
 }
-
-.header__img{
-
-}
-
-
 .sub p{
     padding: 10px;
-    width: 400px;
+    margin: 0 30px;
+    max-width: 400px;
 }
  .header__container h1{
     font-size: 35px;
@@ -184,8 +177,6 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70px;
-    padding: 40px;
 }
 
 .button{
@@ -193,17 +184,17 @@ header{
     align-items: center;
     justify-content: center;
     color: #fff;
-
-    font-size: 24px;
+    width: 80%;
+    font-size: 1.5rem;
     font-weight: 600;
     background: var(--primary-color);
 
-    padding: 0 100px;
+    padding: 20px 10px;
 
 
     border-radius: 6px;
     border-bottom: 3px solid #B06F01;
-    height: 100%;
+
 
 
   
