@@ -36,6 +36,7 @@ a{
     text-decoration: unset;
 }
 
+
 nav{
     display: flex;
     height: auto;
@@ -117,16 +118,13 @@ ul{
     background: var(--light-color);
   }
 
-.bigger{
-    font-size: 20px;
-}
 
 
 /* Header */
 
 header{
     width: 100vw;
-  
+    min-height: 55vh;
     padding-bottom: 120px;
     background-image: url('/img/question.png');
     background-repeat: no-repeat;
@@ -222,7 +220,7 @@ border-bottom: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    align-items: flex-start;
 
     text-align: center;
     width: auto;
@@ -327,6 +325,204 @@ border-bottom: none;
     background: var(--light-color);
     
 }
+
+
+/* <Get Contact Styles >*/
+
+.get-contact-container{
+
+    font-family: var(--mont);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: 100%;
+  }
+  
+  .get-contact-container form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    width: 800px;
+    height: 100%;
+  
+    border-radius: 14px;
+  
+    background: #d9d9d9;
+  
+    margin: 40px 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+  }
+  
+  .get-contact-container form .form__input-group{
+    display: flex;
+    flex-direction: column;
+  
+    margin: 8px 0;
+    background: rgba(0,0,0,0);
+    width: 100%;
+  }
+  
+  .get-contact-container form input,textarea, button{
+    background: rgba(0,0,0,0);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .get-contact-container form input{
+    font-size: 12px;
+  
+    text-align: start;
+  
+    height: 40px;
+    width: 80%;
+  
+    border-radius: 8px;
+    border: 2px solid #fff;
+  
+    margin: 5px auto;
+    padding: 0 15px ;
+    outline: none;
+    
+    background:#fff;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+  
+  .get-contact-container form textarea{
+    font-size: 12px;
+  
+    color: #000;
+  
+    text-align: start;
+  
+    height: 100px;
+    width: 80%;
+  
+    border-radius: 8px;
+    border: 2px solid #fff;
+  
+    padding: 15px;
+    margin: 15px auto;
+    outline: none;
+  
+    background:#fff;
+  }
+  
+  .get-contact-container form button{
+    width: 200px;
+    height: 40px;
+  
+    margin-top: 30px;
+  
+    color: #fff;
+    font-size: 16px;
+  
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+
+  
+    cursor: pointer;
+  
+    background: var(--primary-color);
+  }
+
+  form h1{
+    text-transform: unset;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-color);
+    background: rgba(0,0,0,0);
+  }
+  
+  /* </Get Contact Styles >*/
+  
+  
+  /* < Footer > */
+  footer{
+    color: var(--white-color);
+    background: var(--primary-color);
+  }
+  span,img,.footer-message,p,a,h1, h2, li, .social-medias, 
+  .all-social-icons{
+    background: rgba(0,0,0,0);
+  
+  }
+  
+  .footer-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--white-color);
+    padding: 20px;
+    background: var(--primary-color);
+    overflow: hidden;
+  }
+  .footer-container h2{
+    color: var(--white-color);
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .footer-message {
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .footer-message p{
+    font-size: 18px;
+  }
+  .footer-message i{
+    margin: 0 12px;
+  }
+  
+  .footer-message img{
+    width: 150px;
+  }
+  
+  .social-medias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+  }
+  
+  
+  
+  .social-medias i{
+    color: #fff;
+    font-size: 3em;
+    margin: 30px 20px;
+    transition: filter .2s;
+  }
+  
+  .social-medias i:hover{
+    filter: brightness(80%);
+  }
+  
+  .copy{
+    padding: 20px;
+  }
+  /* </ Footer > */
 
 @media screen and (max-width:635px){
 
