@@ -473,7 +473,6 @@ border-bottom: none;
     margin: 20px auto;
     background: var(--primary-color);
     overflow: hidden;
-    border: 1px solid red;
   }
   .footer-container h2{
     color: var(--white-color);
