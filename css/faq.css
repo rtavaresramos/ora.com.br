@@ -106,3 +106,95 @@
 .button:hover{
 border-bottom: none;
 }
+
+@media screen and (max-width:635px){
+
+
+.section__faq{
+  padding: 40px 0;
+}
+.section__faq__content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  width: auto;
+  margin: 0 ;
+  padding: 0 20px;
+  min-height: 55vh;
+
+
+}
+
+.section__faq__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 30px;
+
+}
+
+.section__faq__content .content{
+  max-width: 500px;
+  color:var(--secundary-color);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section__faq h2{
+  color: var(--secundary-color);
+  width: 80%;
+  text-align: center;
+  font-size: 32px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.section__faq h3{
+  max-width: 700px;
+  color: var(--secundary-color);
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+
+.faq__content .button__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.faq__content .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: var(--primary-color);
+
+  padding: 20px 10px;
+
+
+  border-radius: 6px;
+  border-bottom: 3px solid #B06F01;
+}
+
+.button:hover{
+border-bottom: none;
+}
+
+}
