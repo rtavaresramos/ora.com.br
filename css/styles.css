@@ -470,7 +470,7 @@ border-bottom: none;
     text-align: center;
     align-items: center;
     color: var(--white-color);
-    margin: 20px auto;
+    margin: 0 auto;
     background: var(--primary-color);
     overflow: hidden;
   }
