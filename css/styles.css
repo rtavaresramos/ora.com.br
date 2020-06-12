@@ -191,15 +191,14 @@ header{
 
 
     border-radius: 6px;
-    border-bottom: 3px solid #B06F01;
-
-
-
+    border-bottom: 3px solid #B06F01; 
+    transition: filter .2s;
   
 }
 
 .button:hover{
-border-bottom: none;
+  filter: brightness(80%);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 /* Main */
