@@ -239,7 +239,7 @@ border-bottom: none;
 }
 
 .section__who-we-are .section__wwr__content .content{
-    width: 250px;
+    width: 300px;
     color: #fff;
     font-weight: 300;
     font-size: 16px;
@@ -252,8 +252,10 @@ border-bottom: none;
     color: var(--secundary-color);
 }
 .section__wwr__content .content p{
-    text-align: justify;
+    text-align: auto;
     color: var(--secundary-color);
+
+    padding: 20px;
 }
 .section__wwr__container .img, .section__wwr__container .img-ayra{
     display: flex;
@@ -322,7 +324,7 @@ border-bottom: none;
     color: var(--primary-color);
     width: auto;
     padding: 30px 20px;
-    background: var(--light-color);
+    /* background: var(--light-color); */
     
 }
 
@@ -336,7 +338,7 @@ border-bottom: none;
     justify-content: center;
     text-align: center;
     align-items: center;
-  
+    background: var(--secundary-color);
     width: 100vw;
     height: 100%;
   }
@@ -353,7 +355,7 @@ border-bottom: none;
   
     border-radius: 14px;
   
-    background: #d9d9d9;
+    background: var(--primary-color);
   
     margin: 40px 10px;
     padding-bottom: 10px;
@@ -371,7 +373,7 @@ border-bottom: none;
   
   .get-contact-container form input,textarea, button{
     background: rgba(0,0,0,0);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--mont);
   }
   
   .get-contact-container form input{
@@ -393,8 +395,8 @@ border-bottom: none;
   }
   
   ::-webkit-input-placeholder {
-    color: var(--primary-color);
-    font-family: 'Poppins', sans-serif;
+    color: var(--secundary-color);
+    font-family: var(--mont);
     font-size: 14px;
   }
   
@@ -427,20 +429,20 @@ border-bottom: none;
     color: #fff;
     font-size: 16px;
   
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--secundary-color);
     border-radius: 6px;
 
   
     cursor: pointer;
   
-    background: var(--primary-color);
+    background: var(--secundary-color);
   }
 
   form h1{
     text-transform: unset;
     font-size: 36px;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--secundary-color);
     background: rgba(0,0,0,0);
   }
   
@@ -482,11 +484,12 @@ border-bottom: none;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 40px;
   }
   
   .footer-message p{
     font-size: 18px;
+    margin: 0 50px;
   }
   .footer-message i{
     margin: 0 12px;
