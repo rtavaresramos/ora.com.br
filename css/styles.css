@@ -262,6 +262,7 @@ header{
     justify-content: center;
     background-color: var(--primary-color);
     overflow: hidden;
+    position:relative;
     width: 150px;
     height: 150px;
     border-radius: 50%;
