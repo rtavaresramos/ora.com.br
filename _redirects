@@ -1,0 +1,9 @@
+/servicos/* https://oraadvogados.com.br/services.html:splat 200
+/servicos-aereo/* https://oraadvogados.com.br/flight-services.html:splat 200
+/forumlario-atraso-cancelamento/* https://oraadvogados.com.br/delay-form.html:splat 200
+/forumlario-bagagem/* https://oraadvogados.com.br/lugage-form.html:splat 200
+/outros-problemas-aereo/* https://oraadvogados.com.br/other-problems.html:splat 200
+/agua-e-luz/* https://oraadvogados.com.br/water-light.html:splat 200
+/negativacao/* https://oraadvogados.com.br/charges-not-valid.html:splat 200
+/compras-online/* https://oraadvogados.com.br/buy-online.html:splat 200
+/perguntas-frequentes/* https://oraadvogados.com.br/faq.html:splat 200
