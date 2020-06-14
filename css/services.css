@@ -32,7 +32,6 @@
   margin: 0 10px;
   min-height: 55vh;
 
-
 }
 
 .section__services__container{
@@ -41,7 +40,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .section__services__content .content{

@@ -9,6 +9,7 @@
 
 /forumlario-atraso-cancelamento/* https://oraadvogados.com.br/form-delay-flight.html:splat 200
 /forumlario-bagagem/* https://oraadvogados.com.br/form-lugage.html:splat 200
+/outros-problemas/* https://oraadvogados.com.br/form-all-other-problems.html:splat 200
 /outros-problemas-aereo/* https://oraadvogados.com.br/form-other-problems-flight.html:splat 200
 /outros-problemas-compras-online/* https://oraadvogados.com.br/form-other-problems-buys.html:splat 200
 /agua-e-luz/* https://oraadvogados.com.br/form-water-light.html:splat 200
