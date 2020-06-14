@@ -8,5 +8,5 @@
 /cobrancas/* https://oraadvogados.com.br/charges-services.html:splat 200
 /cobranca-indevida/* https://oraadvogados.com.br/charges-not-valid.htmlsplat 200
 /negativaca-indevida/* https://oraadvogados.com.br/wrong-negativation.html:splat 200
-/compras-online/* https://oraadvogados.com.br/buy-online.html:splat 200
+/compras-online/* https://oraadvogados.com.br/buys-services.html:splat 200
 /perguntas-frequentes/* https://oraadvogados.com.br/faq.html:splat 200
