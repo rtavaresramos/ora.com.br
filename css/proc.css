@@ -1,7 +1,10 @@
 
-@font-face{
-  font-display: swap;
+html{
+  @font-face{
+    font-display: swap;
+  }
 }
+
 .proc-form{
   display: flex;
   align-items: center;
