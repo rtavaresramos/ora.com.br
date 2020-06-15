@@ -541,7 +541,7 @@ header{
     padding: 0 20px;
 }
 .sub p{
-    padding: 20px;
+    padding: 10px 20px;
     margin: 0;
     max-width: 400px;
 }
@@ -549,8 +549,9 @@ header{
     font-size: 22px;
     color: var(--secundary-color);
     text-align: left;
-    line-height: 60px;
+    line-height: 45px;
     margin-left: 10px ;
+
 }
 
 .header__container h1 span{
