@@ -531,6 +531,76 @@ header{
 
 @media screen and (max-width:635px){
 
+
+.header__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.sub p{
+    padding: 20px;
+    margin: 0;
+    max-width: 400px;
+}
+ .header__container h1{
+    font-size: 22px;
+    color: var(--secundary-color);
+    text-align: left;
+    line-height: 60px;
+    margin-left: 10px ;
+}
+
+.header__container h1 span{
+
+    color: var(--light-color);
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    background: var(--primary-color);
+    padding: 6px;
+    font-family: var(--opens);
+}
+
+.header__content p{
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+}
+
+.button__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: var(--primary-color);
+
+    padding: 20px 10px;
+
+
+    border-radius: 6px;
+    border-bottom: 3px solid #B06F01; 
+    transition: filter .2s;
+  
+}
+
+.button:hover{
+  filter: brightness(80%);
+  border-bottom: 3px solid var(--primary-color);
+}
+
     .footer__nav__container{
         display: flex;
         flex-direction: column;
