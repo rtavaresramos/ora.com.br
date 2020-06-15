@@ -32,6 +32,10 @@ body,html{
 body{
     background: var(--primary-light-color);
 }
+.seo-hidden{
+  font-size: 0;
+  line-height: 0;
+}
 a{
     text-decoration: unset;
 }
