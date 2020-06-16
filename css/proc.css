@@ -61,7 +61,7 @@ html{
 
   }
   
-  .form__container form{
+  .form__container form, .thank__you{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -161,7 +161,7 @@ html{
     background: var(--secundary-color);
   }
 
-  form h1{
+  form h1, h1{
     text-transform: unset;
     font-size: 36px;
     font-weight: 500;
@@ -169,7 +169,7 @@ html{
     background: rgba(0,0,0,0);
     margin: 30px auto 0 auto;
   }
-  form p{
+  form p, p{
     text-transform: unset;
     font-size: 12px;
     font-weight: 400;
