@@ -146,7 +146,6 @@ header{
 .header__container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: initial;
     text-align: center;
     align-items: flex-start;
