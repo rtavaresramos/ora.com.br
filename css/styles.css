@@ -145,10 +145,11 @@ header{
 
 .header__container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: initial;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 50px;
 }
 .sub p{
