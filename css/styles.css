@@ -37,7 +37,7 @@ body,html{
     scroll-behavior: smooth;
   }
 body{
-    background:  rgba(251,158,2,.1);
+    background: var(--primary-light-color);
 }
 .seo-hidden{
   font-size: 0;
@@ -59,8 +59,7 @@ nav{
     align-items: center;
     font-family: var(--opens);
 
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
+    
 }
 
 .toggle{
@@ -93,8 +92,7 @@ nav{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    max-width: 1300px;
-
+    width: auto;
 }
 
 .logo{
@@ -136,9 +134,7 @@ ul{
 /* Header */
 
 header{
-    max-width: 1300px;
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
+    width: 100vw;
     min-height: 55vh;
     padding-bottom: 120px;
     background-image: url('/img/question.png');
@@ -146,10 +142,7 @@ header{
     background-position: center right;
 
 }
-.container{
-    background: var(--primary-light-color);
 
-}
 .header__container{
     display: flex;
     flex-direction: column;
@@ -222,11 +215,8 @@ header{
 /* Main */
 
 .section__who-we-are{
-    max-width: 1300px;
     display: flex;
-    height: auto;    
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
+    height: auto;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -307,12 +297,7 @@ header{
     font-weight: 600;
 }
 /* How it works */
-.section__how-it-works{
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
-    max-width: 1300px;
-    background: var(--primary-light-color);
-}
+
 .adv__container h2{
     font-size: 32px;
     margin: 0 auto;
@@ -329,7 +314,6 @@ header{
     max-width: 600px;
     border-radius: 8px;
     background: var(--secundary-color);
-
 }
 .adv__content .img img{
     width: 120px;
@@ -366,9 +350,7 @@ header{
     text-align: center;
     align-items: center;
     background: var(--secundary-color);
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
-    max-width: 1300px;
+    width: 100vw;
     height: 100%;
   }
   
@@ -483,9 +465,6 @@ header{
     color: var(--white-color);
     background: var(--primary-color);
     padding: 0;
-    border-right: 3px solid var(--light-color);
-    border-left: 3px solid var(--light-color);
-    max-width: 1300px;
     margin: 0;
   }
   span,img,.footer-message,p,a,h1, h2, li, .social-medias, 
@@ -495,7 +474,7 @@ header{
   }
   
   .footer-container{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
