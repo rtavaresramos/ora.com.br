@@ -59,7 +59,8 @@ nav{
     align-items: center;
     font-family: var(--opens);
 
-    
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
 }
 
 .toggle{
@@ -92,7 +93,8 @@ nav{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    width: auto;
+    max-width: 1300px;
+
 }
 
 .logo{
@@ -134,7 +136,9 @@ ul{
 /* Header */
 
 header{
-    width: 100vw;
+    max-width: 1300px;
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
     min-height: 55vh;
     padding-bottom: 120px;
     background-image: url('/img/question.png');
@@ -215,8 +219,11 @@ header{
 /* Main */
 
 .section__who-we-are{
+    max-width: 1300px;
     display: flex;
-    height: auto;
+    height: auto;    
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -297,7 +304,11 @@ header{
     font-weight: 600;
 }
 /* How it works */
-
+.section__how-it-works{
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
+    max-width: 1300px;
+}
 .adv__container h2{
     font-size: 32px;
     margin: 0 auto;
@@ -314,6 +325,7 @@ header{
     max-width: 600px;
     border-radius: 8px;
     background: var(--secundary-color);
+
 }
 .adv__content .img img{
     width: 120px;
@@ -350,7 +362,9 @@ header{
     text-align: center;
     align-items: center;
     background: var(--secundary-color);
-    width: 100vw;
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
+    max-width: 1300px;
     height: 100%;
   }
   
@@ -465,6 +479,9 @@ header{
     color: var(--white-color);
     background: var(--primary-color);
     padding: 0;
+    border-right: 3px solid var(--light-color);
+    border-left: 3px solid var(--light-color);
+    max-width: 1300px;
     margin: 0;
   }
   span,img,.footer-message,p,a,h1, h2, li, .social-medias, 
@@ -474,7 +491,7 @@ header{
   }
   
   .footer-container{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
