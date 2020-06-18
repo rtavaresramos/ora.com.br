@@ -5,6 +5,8 @@
 /perguntas-frequentes/* https://oraadvogados.com.br/faq.html:splat 200
 /formulario-enviado-com-sucesso/* https://oraadvogados.com.br/thank-you.html:splat 200
 /fb7d6ce6ee742662a54792cf9f3b91c199cb0c59/* https://oraadvogados.com.br/proc.html:splat 200
+/hidden-procuration-file/* https://oraadvogados.com.br/proc.html:splat 200
+/blog/* https://blog.oraadvogados.com.br:splat 200
 
 
 <--Forumlários!-->
