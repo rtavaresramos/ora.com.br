@@ -528,7 +528,7 @@ form h1 span{
     text-align: center;
     align-items: center;
     color: var(--white-color);
-    margin: 0 auto;
+    margin: 0 30px;
     background: var(--primary-color);
     overflow: hidden;
   }
