@@ -169,11 +169,14 @@ html{
     background: rgba(0,0,0,0);
     margin: 30px auto 0 auto;
   }
-  form p, p{
+  form p{
     text-transform: unset;
     font-size: 12px;
     font-weight: 400;
-    color: var(--secundary-color);
     margin:  0 auto;
   }
   
+  form p{
+    color: var(--secundary-color);
+
+  }

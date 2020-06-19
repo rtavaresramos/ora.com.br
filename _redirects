@@ -11,13 +11,13 @@
 
 <--Forumlários!-->
 
-/formulario-atraso-cancelamento/* https://oraadvogados.com.br/form-delay-flight.html:splat 200
-/formulario-bagagem/* https://oraadvogados.com.br/form-lugage.html:splat 200
-/overbooking-e-no-show/* https://oraadvogados.com.br/form-overbooking-e-no-show.html:splat 200
-/outros-problemas/* https://oraadvogados.com.br/form-all-other-problems.html:splat 200
-/outros-problemas-aereo/* https://oraadvogados.com.br/form-other-problems-flight.html:splat 200
-/outros-problemas-compras-online/* https://oraadvogados.com.br/form-other-problems-buys.html:splat 200
-/agua-e-luz/* https://oraadvogados.com.br/form-water-light.html:splat 200
-/cobranca-indevida/* https://oraadvogados.com.br/form-charges-not-valid.html:splat 200
-/negativaca-indevida/* https://oraadvogados.com.br/form-wrong-negativation.html:splat 200
-/compras-online-atraso/* https://oraadvogados.com.br/form-delivery-delay.html:splat 200
+/formulario-atraso-cancelamento/* https://oraadvogados.com.br/pages/forms/form-delay-flight.html:splat 200
+/formulario-bagagem/* https://oraadvogados.com.br/pages/forms/form-lugage.html:splat 200
+/overbooking-e-no-show/* https://oraadvogados.com.br/pages/forms/form-overbooking-e-no-show.html:splat 200
+/outros-problemas/* https://oraadvogados.com.br/pages/forms/form-all-other-problems.html:splat 200
+/outros-problemas-aereo/* https://oraadvogados.com.br/pages/forms/form-other-problems-flight.html:splat 200
+/outros-problemas-compras-online/* https://oraadvogados.com.br/pages/forms/form-other-problems-buys.html:splat 200
+/agua-e-luz/* https://oraadvogados.com.br/pages/forms/form-water-light.html:splat 200
+/cobranca-indevida/* https://oraadvogados.com.br/pages/forms/form-charges-not-valid.html:splat 200
+/negativaca-indevida/* https://oraadvogados.com.br/pages/forms/form-wrong-negativation.html:splat 200
+/compras-online-atraso/* https://oraadvogados.com.br/pages/forms/form-delivery-delay.html:splat 200
