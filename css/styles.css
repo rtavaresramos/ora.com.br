@@ -313,7 +313,7 @@ header{
     margin: 40px auto;
     max-width: 600px;
     border-radius: 8px;
-    background: var(--secundary-color);
+    background: var(--primary-color);
 }
 .adv__content .img img{
     width: 120px;
@@ -332,7 +332,7 @@ header{
 
 .section__how-it-works{
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secundary-color);
     width: auto;
     padding: 30px 20px;
     /* background: var(--light-color); */
