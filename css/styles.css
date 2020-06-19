@@ -395,13 +395,13 @@ header{
     width: 80%;
   
     border-radius: 8px;
-    border: 2px solid #FEEBCB;
+    border: 2px solid #fff;
   
     margin: 5px auto;
     padding: 0 15px ;
     outline: none;
     
-    background:#FEEBCB;
+    background:#fff;
   }
   
   ::-webkit-input-placeholder {
@@ -422,13 +422,13 @@ header{
     width: 80%;
   
     border-radius: 8px;
-    border: 2px solid #FEEBCB;
+    border: 2px solid #fff;
   
     padding: 15px;
     margin: 15px auto;
     outline: none;
   
-    background: #FEEBCB;
+    background: #fff;
   }
   
   .get-contact-container form button{
@@ -441,24 +441,66 @@ header{
     color: var(--secundary-color);
     font-size: 16px;
     font-weight: 700;
-  
-    border: 2px solid #fcc66a;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 5px solid #d9d9d9;
     border-radius: 6px;
 
   
     cursor: pointer;
   
-    background: #fcc66a;
+    background: #fff;
+  }
+  .get-contact-container form button:hover{
+    width: 200px;
+    height: 45px;
+  
+    margin-top: 30px;
+    margin-bottom: 10px;
+  
+    color: var(--secundary-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 6px;
+
+    filter: brightness(90%);
+    cursor: pointer;
+  
+    background: #fff;
   }
 
-  form h1{
+  /* form h1{
     text-transform: unset;
     font-size: 30px;
     font-weight: 500;
     color: var(--primary-color);
     background: rgba(0,0,0,0);
-  }
+  } */
   
+  form h1{
+    font-size: 32px;
+    color: var(--light-color);
+    text-align: left;
+    line-height: 40px;
+    margin-left: 10px ;
+    font-weight: 400;
+}
+
+form h1 span{
+    font-size: 24px;
+    color: var(--secundary-color);
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    background: var(--light-color);
+    padding: 6px;
+    font-family: var(--opens);
+}
   /* </Get Contact Styles >*/
   
   
