@@ -152,9 +152,9 @@ header{
     padding: 0 50px;
 }
 .sub p{
-    padding: 10px;
-    margin: 0 30px;
-    max-width: 400px;
+    padding: 10px  0 10px 15px;
+    margin: 0 0 20px 30px;
+    max-width: 500px;
 }
  .header__container h1{
     font-size: 35px;
@@ -249,7 +249,7 @@ header{
 }
 
 .section__who-we-are .section__wwr__content .content{
-    width: 300px;
+    width: 400px;
     color: #fff;
     font-weight: 300;
     font-size: 16px;
@@ -262,9 +262,9 @@ header{
     color: var(--secundary-color);
 }
 .section__wwr__content .content p{
-    text-align: auto;
+    text-align: justify;
     color: var(--secundary-color);
-
+    hyphens: auto;
     padding: 20px;
 }
 .section__wwr__container .img, .section__wwr__container .img-ayra{
@@ -301,7 +301,7 @@ header{
 .adv__container h2{
     font-size: 32px;
     margin: 0 auto;
-    /* color: var(--secundary-color); */
+    color: var(--secundary-color);
 }
 .adv__content {
     display: flex;
@@ -349,9 +349,8 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background: var(--secundary-color);
-    width: 100vw;
-    height: 100%;
+    background: var(--primary-color);
+
   }
   
   .get-contact-container form{
@@ -361,12 +360,12 @@ header{
     justify-content: center;
     align-items: center;
   
-    width: 800px;
-    height: 100%;
+    width: 450px;
+    height: 500px;
   
     border-radius: 14px;
   
-    background: var(--primary-color);
+    background: var(--secundary-color);
   
     margin: 40px 10px;
     padding-bottom: 10px;
@@ -396,17 +395,18 @@ header{
     width: 80%;
   
     border-radius: 8px;
-    border: 2px solid #fff;
+    border: 2px solid #FEEBCB;
   
     margin: 5px auto;
     padding: 0 15px ;
     outline: none;
     
-    background:#fff;
+    background:#FEEBCB;
   }
   
   ::-webkit-input-placeholder {
     color: var(--secundary-color);
+    font-weight: 700;
     font-family: var(--mont);
     font-size: 14px;
   }
@@ -414,7 +414,7 @@ header{
   .get-contact-container form textarea{
     font-size: 12px;
   
-    color: #000;
+    color: var(--secundary-color);
   
     text-align: start;
   
@@ -422,38 +422,40 @@ header{
     width: 80%;
   
     border-radius: 8px;
-    border: 2px solid #fff;
+    border: 2px solid #FEEBCB;
   
     padding: 15px;
     margin: 15px auto;
     outline: none;
   
-    background:#fff;
+    background: #FEEBCB;
   }
   
   .get-contact-container form button{
     width: 200px;
-    height: 40px;
+    height: 45px;
   
     margin-top: 30px;
+    margin-bottom: 10px;
   
-    color: #fff;
+    color: var(--secundary-color);
     font-size: 16px;
+    font-weight: 700;
   
-    border: 2px solid var(--secundary-color);
+    border: 2px solid #fcc66a;
     border-radius: 6px;
 
   
     cursor: pointer;
   
-    background: var(--secundary-color);
+    background: #fcc66a;
   }
 
   form h1{
     text-transform: unset;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
-    color: var(--secundary-color);
+    color: var(--primary-color);
     background: rgba(0,0,0,0);
   }
   
@@ -473,10 +475,11 @@ header{
   
   }
   
+ 
   .footer-container{
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -490,43 +493,51 @@ header{
     font-size: 28px;
     font-weight: 400;
   }
-  .footer-message {
-    width: 100vw;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 0 40px;
-  }
-  
-  .footer-message p{
-    font-size: 18px;
-    margin: 0 50px;
-  }
-  .footer-message i{
-    margin: 0 12px;
-  }
-  
-  .footer-message img{
-    width: 150px;
-  }
   
   .social-medias{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    width: 50vw;
+    padding: 10px 50px;
+  }
+  .social-medias .social-head{
+    color: var(--secundary-color);
+  }
+  .social-medias .social-medias-item a{
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secundary-color);
+
+  }
+  .social-medias .social-medias-items-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .social-medias .social-medias-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
   }
   
   
-  
+  .social-medias img{
+    width: 250px;
+  }
   .social-medias i{
-    color: #fff;
-    font-size: 3em;
+    color: var(--secundary-color);
+    font-size: 2em;
+    font-weight: 200;
     margin: 30px 20px;
     transition: filter .2s;
   }
@@ -535,8 +546,12 @@ header{
     filter: brightness(80%);
   }
   
+  .copy a{ 
+    color: var(--secundary-color);
+    text-decoration: underline;
+  }
   .copy{
-    padding: 20px;
+    padding: 0 20px 20px 20px;
   }
   /* </ Footer > */
 
