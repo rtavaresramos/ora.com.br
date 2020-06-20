@@ -234,7 +234,7 @@ header{
 
     text-align: center;
     width: auto;
-    margin: 0 10px;
+    margin: 0 20px;
     height: auto;
 
 }
@@ -249,7 +249,7 @@ header{
 }
 
 .section__who-we-are .section__wwr__content .content{
-    width: 400px;
+    max-width: 400px;
     color: #fff;
     font-weight: 300;
     font-size: 16px;
