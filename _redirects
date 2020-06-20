@@ -21,3 +21,5 @@
 /cobranca-indevida/* https://oraadvogados.com.br/pages/forms/form-charges-not-valid.html:splat 200
 /negativaca-indevida/* https://oraadvogados.com.br/pages/forms/form-wrong-negativation.html:splat 200
 /compras-online-atraso/* https://oraadvogados.com.br/pages/forms/form-delivery-delay.html:splat 200
+
+/procuracao-preenchida-com-sucesso/* https://docs.google.com/forms/u/0/d/e/1FAIpQLSe1h8HzKgox9Fxa0LUvk0aUYZMsPcoOaMX1bzPVofXO1M-jHA/formResponse:splat 200
