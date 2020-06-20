@@ -94,7 +94,6 @@ html{
 }
 .section__services__content .content h3{
   font-size: 14px;
-  width: 150px;
   color: var(--secundary-color);
   text-transform: uppercase;
   margin: 20px auto;
