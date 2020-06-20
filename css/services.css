@@ -42,7 +42,7 @@ html{
 
 .section__services__container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -83,6 +83,7 @@ html{
   border-radius: 50%;
   border: 4px solid var(--light-color);
   box-shadow: 0 0  10px  rgba(0,0,0,.5);
+
 }
 .section__services__container .img img{
   width: 200px;
@@ -93,9 +94,11 @@ html{
 }
 .section__services__content .content h3{
   font-size: 14px;
+  width: 150px;
   color: var(--secundary-color);
   text-transform: uppercase;
-  margin-top: 20px;
+  margin: 20px auto;
+
 }
 .section__services__content .content p{
   text-align: justify;
