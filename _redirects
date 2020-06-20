@@ -6,7 +6,7 @@
 /formulario-enviado-com-sucesso/* https://oraadvogados.com.br/pages/thank-you.html:splat 200
 /fb7d6ce6ee742662a54792cf9f3b91c199cb0c59/* https://oraadvogados.com.br/pages/proc.html:splat 200
 /hidden-procuration-file/* https://oraadvogados.com.br/pages/proc.html:splat 200
-/blog/* https://blog.oraadvogados.com.br:splat 200
+
 
 
 <--Forumlários!-->
@@ -21,3 +21,4 @@
 /cobranca-indevida/* https://oraadvogados.com.br/pages/forms/form-charges-not-valid.html:splat 200
 /negativaca-indevida/* https://oraadvogados.com.br/pages/forms/form-wrong-negativation.html:splat 200
 /compras-online-atraso/* https://oraadvogados.com.br/pages/forms/form-delivery-delay.html:splat 200
+
