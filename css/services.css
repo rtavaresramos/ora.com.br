@@ -107,3 +107,15 @@ html{
   color: var(--secundary-color);
 }
 
+
+@media screen and (max-width: 635px){
+  .section__services h2{
+    color: var(--secundary-color);
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: 0 30px;
+  
+}
+}
