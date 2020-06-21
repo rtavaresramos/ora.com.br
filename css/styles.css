@@ -155,8 +155,9 @@ header{
     align-items: flex-start;
     padding: 0 50px;
 }
+
 .sub p{
-    padding: 10px  0 10px 15px;
+    padding: 10px  0;
     margin: 0 0 20px 30px;
     max-width: 500px;
 }
@@ -330,7 +331,8 @@ header{
 }
 .hit__content p{
     max-width: 600px;
-   text-align: justify;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .section__how-it-works{
@@ -610,10 +612,14 @@ header{
     align-items: center;
     padding: 0 20px;
 }
+.sub{
+  padding: 0 10px;
+
+}
 .sub p{
-    padding: 10px 20px;
-    margin: 0;
-    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
 }
  .header__container h1{
     font-size: 22px;
@@ -653,7 +659,7 @@ header{
     align-items: center;
     justify-content: center;
     color: #fff;
-    width: 80%;
+    width: 90%;
     font-size: 1.5rem;
     font-weight: 600;
     background: var(--primary-color);

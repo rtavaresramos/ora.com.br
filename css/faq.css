@@ -150,6 +150,8 @@ border-bottom: none;
   color:var(--secundary-color);
   font-weight: 300;
   font-size: 14px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .section__faq h2{
