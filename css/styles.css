@@ -238,7 +238,7 @@ header{
 
     text-align: center;
     width: auto;
-    margin: 0 20px;
+
     height: auto;
 
 }
@@ -269,7 +269,6 @@ header{
     text-align: justify;
     color: var(--secundary-color);
     hyphens: auto;
-    padding: 20px;
 }
 .section__wwr__container .img, .section__wwr__container .img-ayra{
     display: flex;
