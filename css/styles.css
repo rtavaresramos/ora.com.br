@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
@@ -36,8 +36,44 @@ body,html{
     font-family: var(--lato);
     scroll-behavior: smooth;
   }
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+  
 body{
     background: var(--primary-light-color);
+    animation: fadeIn 2s;
 }
 .seo-hidden{
   font-size: 0;
@@ -344,7 +380,28 @@ header{
     
 }
 
+.insta{
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 700px;
+}
 
+.insta h2{
+  display: block;
+  padding: 0 4px;
+  line-height: 40px;
+}
+
+
+.insta span{
+  font-family: var(--mont);
+  background-color: var(--secundary-color);
+  color: var(--light-color);
+  font-style: italic;
+  padding: 0 4px;
+  margin: 4px;
+  font-weight: 700;
+}
 /* <Get Contact Styles >*/
 
 .get-contact-container{
