@@ -20,6 +20,6 @@ function handleForm(){
   <p>Em até 48 horas, entraremos em contato por e-mail para seguirmos com a sua solicitação judicial.</p>
   </div>`
   
-}, 7000);
+}, 3000);
 
 }
