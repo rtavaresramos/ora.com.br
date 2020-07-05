@@ -121,3 +121,9 @@ body,html{
   .display-on{
     display: unset;
   }
+
+  @media screen and (max-width:485px){
+   .offer-image img{
+    max-width: 320px;
+  }
+}
