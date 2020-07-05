@@ -90,7 +90,7 @@ body,html{
     flex-direction: column;
     align-items: flex-start;
     height: 80%;
-    width: 450px;
+    padding: 30px;
     margin: 10px;
   }
   #cta-ebook{
