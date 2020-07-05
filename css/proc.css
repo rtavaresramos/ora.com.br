@@ -131,7 +131,9 @@ html{
     
     background:#fff;
   }
-  
+  .proc-form input .uf-text{
+    text-transform: uppercase;
+  }
   ::-webkit-input-placeholder {
     color: var(--secundary-color);
     font-family: var(--mont);
