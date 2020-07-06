@@ -71,6 +71,41 @@ body,html{
     0% { opacity: 0; }
     100% { opacity: 1; }
     }
+
+
+  @-webkit-keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; } 
+    }
+    @-moz-keyframes fadeOut {
+    0% { opacity: 1;}
+    100% { opacity: 0; }
+    }
+    @-o-keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+    }
+    @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+    }
+    
+  @-webkit-keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; } 
+    }
+    @-moz-keyframes fadeOut {
+    0% { opacity: 1;}
+    100% { opacity: 0; }
+    }
+    @-o-keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+    }
+    @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+    }
   
 body{
     background: var(--primary-light-color);
@@ -104,7 +139,8 @@ a{
 
   padding-right: 6px;
   box-shadow: 0 0 10px var(--secundary-color);
-  animation: fadeIn 1s;
+  animation: fadeIn 1s ease-in-out;
+
 }
 
 .wpp-button i{
