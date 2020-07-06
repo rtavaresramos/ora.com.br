@@ -94,6 +94,7 @@ a{
   border-bottom-right-radius: 10%;
 }
 .wpp-button{
+  z-index: 50;
   position: fixed;
   background-color: var(--light-color);
   bottom: 30px;
@@ -689,7 +690,19 @@ form h1 span{
 
 
 @media screen and (max-width:485px){
-
+  .wpp-button span{
+    display: none;
+  }
+  .wpp-button i{
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 5px 10px;
+  }
+  .wpp-button{
+    background: var(--wpp-color);
+    padding-right: 0;
+    transition: 1s;
+  }
 header{
   background: none;
 }
