@@ -17,6 +17,7 @@ html{
     --secundary-color:#393838;
     --light-color: #fff;
     --grey-color:#EEEEEE;
+    --wpp-color: #27AA4E;
 
 
     /* Fonts */
@@ -83,7 +84,35 @@ a{
     text-decoration: unset;
 }
 
+.wpp-button a{
+  display: flex;
+  align-items: center;
+  color:var(--secundary-color);
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.wpp-button{
+  position: fixed;
+  background-color: var(--light-color);
+  bottom: 30px;
+  right: 30px;
+  border-radius: 4px;
 
+  padding-right: 6px;
+  box-shadow: 0 0 10px var(--secundary-color);
+}
+
+.wpp-button i{
+  font-size: 2.5em;
+  color: #fff;
+  background-color: var(--wpp-color);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 6px;
+  margin-right: 6px;
+}
 nav{
     position: relative;
     z-index: 20;
@@ -943,6 +972,20 @@ header{
   background-repeat: no-repeat;
   background-position: center 220px;
 }
+.wpp-button span{
+  display: none;
+}
+.wpp-button i{
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+.wpp-button{
+  background: var(--wpp-color);
+  padding-right: 0;
+  transition: 1s;
+}
+
 .header__container {
   display: flex;
   flex-direction: column;
