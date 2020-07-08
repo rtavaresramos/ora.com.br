@@ -91,15 +91,15 @@ html{
   background: rgba(251,158,2,.3);
 
   overflow: hidden;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 4px solid var(--light-color);
   box-shadow: 0 0  10px  rgba(0,0,0,.5);
 
 }
 .section__services__container .img img{
-  width: 200px;
+  width: 120px;
 }
 
 .section__services__content .content h2{
@@ -117,7 +117,7 @@ html{
   color: var(--secundary-color);
 }
 
-@media screen and (max-width:485px){
+@media screen and (max-width:685px){
   .services-stories__container{
     display: flex;
   }
