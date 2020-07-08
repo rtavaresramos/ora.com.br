@@ -183,11 +183,10 @@ nav{
     border: unset;
   }
   
-  .toggle i{
+  .toggle .toggle-hamburger__container{
   
     display: none;
     padding: 8px 12px;
-    color: #fff;  
     cursor: pointer;
   }
 
@@ -951,13 +950,19 @@ header{
         top: 4px;
         left: 35px;
     }
+    nav .logo img{
+      width: 120px;
+
+    }
+
 
     .toggle{
         top: 52px;
         right: 35px;
       }
       
-      .toggle i{
+      .toggle .toggle-hamburger__container{
+  
         display: block;
         color: #fff;
 
@@ -978,7 +983,9 @@ header{
       position: absolute;
       z-index: 30;
       }
-
+      nav{
+        height: 80px;
+      }
       nav ul{
         position: absolute;
         left: -150px;
@@ -991,7 +998,7 @@ header{
         width: 100vw;
         height: 0;
         overflow: hidden;
-        margin-top: 80px;
+        margin-top: 60px;
         border-bottom: 3px solid var(--light-color);
         box-shadow: 0 5px 5px rgba(0,0,0,.5);
         background: var(--primary-color);
