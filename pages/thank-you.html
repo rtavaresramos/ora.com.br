@@ -19,6 +19,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/proc.css">
+    <link rel="stylesheet" href="../css/toggle.css">
     <link rel="icon" href="../favicon.png"type="image/png">
     <title>Obrigado! | ORA - Sociedade de Advogados</title>
     <meta name="description" content="Oi, tudo bom? Nós somos a ORA Sociedade de Advogados e vamos te ajudar a entrar na justiça de forma simples e 100% digital!" />
@@ -45,7 +46,14 @@
   <nav>
     <div class="nav__container">
   
-      <div class="toggle"><i onclick="handleToggle()" class="fas fa-bars"></i></div>
+      <div class="toggle">  
+        <div class="toggle-hamburger__container">
+        <input id='toggle-hamburger-input'type="checkbox" style="display: none;">
+        <label for="toggle-hamburger-input">
+          <div class="toggle-hamburger"></div>
+        </label>
+      </div>
+    </div>
       <a href="/" class="logo">
         <img 
         src="../img/logo-ora.png" 
