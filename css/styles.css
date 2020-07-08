@@ -948,7 +948,7 @@ header{
         z-index: 20;
         position: absolute;
         top: 4px;
-        left: 35px;
+        left: 10px;
     }
     nav .logo img{
       width: 120px;
@@ -958,7 +958,7 @@ header{
 
     .toggle{
         top: 52px;
-        right: 35px;
+        right: 10px;
       }
       
       .toggle .toggle-hamburger__container{
