@@ -7,5 +7,5 @@ setTimeout(() => {
   button.classList.toggle('display-off')
   button.classList.toggle('display-on')
   
-}, 15000);
+}, 5000);
 }
