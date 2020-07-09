@@ -110,16 +110,46 @@ body,html{
     width: 300px;
     margin: 0 auto;
   }
+
+
  #cta-ebook a{
+
     font-size: 16px!important;
     animation: fadeIn 2s;
+
   }
 
-  .display-off{
-    display: none;
+  .display-off a:hover{
+    filter: unset;
+    border-bottom: 3px solid #dadada;
+    /* cursor: not-allowed; */
+  }
+  .display-off a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: not-allowed;
+
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+
+    padding: 20px 10px;
+
+    border-bottom: 3px solid #dadada;
+
+    border-radius: 6px;
+
+    color: #949494;
+    background: #dadada;
+    font-size: 16px!important;
+    animation: fadeIn 2s;
+
   }
   .display-on{
-    display: unset;
+    filter: brightness(100%);
+    cursor: pointer;
   }
 
   @media screen and (max-width:485px){
