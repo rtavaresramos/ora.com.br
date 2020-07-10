@@ -54,13 +54,18 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  max-width: 80vw;
   padding: 0 10px;
-  margin: 0 10px;
-  min-height: 25vh!important;
+  margin: 20px 20px!important;
+  height: auto!important;
 
+
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 0 10px var(--secundary-color);
 
   overflow-x: scroll;
+
 
 }
 
@@ -70,6 +75,7 @@ html{
   align-items: center;
   text-align: center;
   flex-direction: column;
+
 }
 
 .section__services__content .content{
@@ -77,6 +83,7 @@ html{
   color: #fff;
   font-weight: 300;
   font-size: 16px;
+
 }
 .section__services h3{
   color: var(--secundary-color);
@@ -108,20 +115,17 @@ html{
   font-size: 24px;
 }
 .section__services__content .content h3{
-  font-size: 14px;
+  font-size: 12px;
   color: var(--secundary-color);
   text-transform: uppercase;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
 
 }
 .section__services__content .content p{
   text-align: justify;
   color: var(--secundary-color);
 }
-.all-links__container{
 
-
-}
 .all-links__container .button__container{
   margin: 30px 0;
 }
@@ -132,9 +136,7 @@ html{
     justify-content: unset;
     align-items: center;
     width: 90vw;
-    padding: 0 10px;
-    margin: 0 10px;
-    min-height: 35vh;
+    padding: 10px;
   
     overflow-x: scroll;
 
