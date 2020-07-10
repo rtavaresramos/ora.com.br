@@ -8,6 +8,7 @@
 /hidden-procuration-file/* https://oraadvogados.com.br/pages/proc.html:splat 200
 /procuracao-link-e-mail/* https://oraadvogados.com.br/pages/proc.html:splat 200
 /guia-pratico/* https://oraadvogados.com.br/pages/mktcampaings/ebook-1.html:splat 200
+/links/* https://oraadvogados.com.br/pages/mktCampaings/all-links.html:splat 200
 
 
 
