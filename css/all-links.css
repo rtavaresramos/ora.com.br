@@ -57,7 +57,8 @@ html{
   width: 90vw;
   padding: 0 10px;
   margin: 0 10px;
-  min-height: 35vh;
+  min-height: 25vh!important;
+
 
   overflow-x: scroll;
 
@@ -69,11 +70,10 @@ html{
   align-items: center;
   text-align: center;
   flex-direction: column;
-
 }
 
 .section__services__content .content{
-  width: 175px;
+  width: 150px;
   color: #fff;
   font-weight: 300;
   font-size: 16px;
@@ -93,15 +93,15 @@ html{
   background: rgba(251,158,2,.3);
 
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: 4px solid var(--light-color);
   box-shadow: 0 0  10px  rgba(0,0,0,.5);
 
 }
 .section__services__container .img img{
-  width: 120px;
+  width: 80px;
 }
 
 .section__services__content .content h2{
@@ -118,7 +118,10 @@ html{
   text-align: justify;
   color: var(--secundary-color);
 }
+.all-links__container{
 
+
+}
 .all-links__container .button__container{
   margin: 30px 0;
 }
