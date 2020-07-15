@@ -71,10 +71,11 @@
         <p>Preencha os campos abaixo e baixe o seu Ebook</p>
 
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-        onload="if(submitted){window.location='./ebook-redirect.html'}"></iframe> 
+        ></iframe> 
 
         <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSe1odT9ibAZWNOL28ns9QKpC3C-ff8-xVIPWLGgJaLsqxzTyw/formResponse"
         target="hidden_iframe"
+        onsubmit="startModal()"
         method="POST"
         id="mG61Hd">
 
@@ -90,7 +91,7 @@
         </div>
 
         <div id="cta-ebook">
-          <button class="button">Baixar meu Ebook</button>
+          <button  class="button">Baixar meu Ebook</button>
         </div>
         </form>
       </div>
@@ -104,7 +105,9 @@
       </section> 
     </main>
 
-
+    <div id="modal-wait" class="modal display-off">
+      <h3>Redirecionando ...</h3>
+    </div>
     <script src="../../js/ebook.js"></script>
     <script src="../../js/wpp-control.js"></script>
 </body>

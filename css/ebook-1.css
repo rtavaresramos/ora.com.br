@@ -134,32 +134,11 @@ body,html{
     border-bottom: 3px solid #dadada;
     /* cursor: not-allowed; */
   }
-  .display-off a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: not-allowed;
-
-    width: 80%;
-    font-size: 1.5rem;
-    font-weight: 600;
-
-
-    padding: 20px 10px;
-
-    border-bottom: 3px solid #dadada;
-
-    border-radius: 6px;
-
-    color: #949494;
-    background: #dadada;
-    font-size: 16px!important;
-    animation: fadeIn 2s;
-
+  .display-off{
+  display: none;
   }
   .display-on{
-    filter: brightness(100%);
-    cursor: pointer;
+   display: flex;
   }
   .form__input-group{
     display: flex;
@@ -199,6 +178,21 @@ body,html{
     font-size: 14px;
   }
 
+.modal{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,.5);
+  color: white;
+  font-size: 54px;
+  font-weight: 500;
+}
   @media screen and (max-width:485px){
    .offer-image img{
     max-width: 320px;

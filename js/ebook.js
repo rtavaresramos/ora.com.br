@@ -1,11 +1,12 @@
-var button = document.getElementById('cta-ebook')
-var buttonA = document.getElementById('cta-ebook-a')
+
+var modal = document.getElementById('modal-wait')
 
 
-function onloadEbook(){
-setTimeout(() => {
-  button.classList.toggle('display-off')
-  button.classList.toggle('display-on')
-  
-}, 5000);
+function startModal(){
+  modal.classList.toggle('display-off')
+  modal.classList.toggle('display-on')
+  setTimeout(() => {
+
+    window.location.href = "https://oraadvogados.com.br/meu-guia-pratico-1/" 
+  }, 5000);
 }
