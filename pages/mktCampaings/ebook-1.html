@@ -40,10 +40,7 @@
   /></noscript>
   <!-- End Facebook Pixel Code -->
 
-  <script>
-    function redirectEbook(){
-  window.location='https://oraadvogados.com.br/meu-guia-pratico-1/'
-}</script>
+
 </head>
 <body>
   <div id="wpp-control"class="wpp-button">
@@ -74,7 +71,7 @@
         <p>Preencha os campos abaixo e baixe o seu Ebook</p>
 
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-        onload="redirectEbook()"></iframe> 
+        onload="if(submitted){window.location='./ebook-redirect.html'}"></iframe> 
 
         <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSe1odT9ibAZWNOL28ns9QKpC3C-ff8-xVIPWLGgJaLsqxzTyw/formResponse"
         target="hidden_iframe"
