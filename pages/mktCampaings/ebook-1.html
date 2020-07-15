@@ -69,7 +69,7 @@
         <p>Preencha os campos abaixo e baixe o seu Ebook</p>
 
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-        onload="if(submitted) {window.location='/meu-guia-pratico-1/'}"></iframe> 
+        onload="redirectEbook()"></iframe> 
 
         <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSe1odT9ibAZWNOL28ns9QKpC3C-ff8-xVIPWLGgJaLsqxzTyw/formResponse"
         target="hidden_iframe"
@@ -101,6 +101,11 @@
 
       </section> 
     </main>
+
+    <script>
+      function redirectEbook(){
+    window.location='https://oraadvogados.com.br/meu-guia-pratico-1/'
+  }</script>
     <script src="../../js/ebook.js"></script>
     <script src="../../js/wpp-control.js"></script>
 </body>
