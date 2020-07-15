@@ -112,11 +112,21 @@ body,html{
   }
 
 
- #cta-ebook a{
+ #cta-ebook button{
 
     font-size: 16px!important;
     animation: fadeIn 2s;
+    border: var(--primary-color);
 
+  }
+  .alert{
+    margin-bottom: 30px;
+  }
+  .alert h4{
+    font-size: 12px;
+    font-weight: 400;
+
+    margin: 2px;
   }
 
   .display-off a:hover{
@@ -150,6 +160,43 @@ body,html{
   .display-on{
     filter: brightness(100%);
     cursor: pointer;
+  }
+  .form__input-group{
+    display: flex;
+    flex-direction: column;
+  
+    margin: 8px 0;
+    background: rgba(0,0,0,0);
+    width: 100%;
+  }
+
+  form input, button{
+    background: rgba(0,0,0,0);
+    font-family: var(--mont);
+  }
+
+  form .input-group input{
+    font-size: 12px;
+  
+    text-align: start;
+  
+    height: 40px;
+    width: 80%;
+    border: unset;
+    border-radius: 8px;
+    border: 1px solid #949494!important;
+  
+    margin: 5px auto;
+    padding: 0 15px ;
+    outline: none;
+    color: var(--secundary-color);
+    background:transparent;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #949494;
+    font-family: var(--mont);
+    font-size: 14px;
   }
 
   @media screen and (max-width:485px){

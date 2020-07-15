@@ -140,7 +140,7 @@ html{
   ::-webkit-input-placeholder {
     color: var(--secundary-color);
     font-family: var(--mont);
-    font-size: 14px;
+    font-size: 44px;
   }
   
   
