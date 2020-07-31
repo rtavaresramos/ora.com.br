@@ -749,7 +749,7 @@ form h1 span{
     transition: 1s;
   }
   header{
-    background: url('../img/question-320x320.png');
+    background: none;
     background-repeat: no-repeat;
     background-position: center 90px;
     padding-bottom: 50px;
