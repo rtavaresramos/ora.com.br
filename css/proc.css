@@ -98,7 +98,7 @@ html{
   }
   
   .form__container form input{
-    font-size: 12px;
+    font-size: 12px!important;
   
     text-align: start;
   
@@ -140,7 +140,6 @@ html{
   ::-webkit-input-placeholder {
     color: var(--secundary-color);
     font-family: var(--mont);
-    font-size: 44px;
   }
   
   
