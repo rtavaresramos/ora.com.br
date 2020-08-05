@@ -7,6 +7,6 @@ function startModal(){
   modal.classList.toggle('display-on')
   setTimeout(() => {
 
-    window.location.href = "https://oraadvogados.com.br/meu-guia-pratico-1/" 
+    window.location.href = "https://oraadvogados.com.br/meu-ebook/" 
   }, 5000);
 }
