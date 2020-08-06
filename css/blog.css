@@ -1,4 +1,4 @@
-.blog-place:nth-child(n) {
+.blog-place{
   padding: 20px;
   border-radius: 20px;
   height: 100%;
