@@ -1,0 +1,33 @@
+.blog-place:nth-child(n) {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 100%;
+  max-width: 780px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+h2 {
+  color: var(--secundary-color);
+}
+
+.blog-button {
+  position: absolute;
+  width: 200px;
+  z-index: 20;
+  bottom: 1%;
+  left: 35%;
+  color: white;
+  background: var(--primary-color);
+  padding: 14px 30px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 25px 20px #fff;
+}
+
+a {
+  color: var(--secundary-color);
+  font-weight: bold;
+}
