@@ -13,11 +13,11 @@ h2 {
 }
 
 .blog-button {
-  position: absolute;
+  position: relative;
   width: 200px;
   z-index: 20;
-  bottom: 1%;
-  left: 35%;
+  margin-right: 50px;
+  margin-bottom: 40px;
   color: white;
   background: var(--primary-color);
   padding: 14px 30px;
