@@ -19,6 +19,8 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/services-stories.css">
+  <link rel="stylesheet" href="./css/ebook-1.css">
+  <link rel="stylesheet" href="./css/modal-ebook.css">
     <link rel="stylesheet" href="./css/toggle.css">
     <link rel="icon" href="./favicon.png"type="image/png">
     <title>ORA - Sociedade de Advogados | 
@@ -66,6 +68,49 @@
     <i class="fab fa-whatsapp"></i> 
     <span>Tire suas Dúvidas no Whats App</span>
   </a>
+</div>
+<div id="modal">
+<div class="close-row">
+<div class="close">
+
+</div>
+</div>
+  <div class="mkt__container">
+    <div class="offer-place__container">
+      <div class="offer-image">
+        <img src="../../img/ebook 1.png" alt="">
+      </div>
+      <div class="cta-insta">
+        <h2>10 Dicas infalíveis para comprar com segurança na internet!</h2>
+        <p>Preencha os campos abaixo e baixe o seu Ebook</p>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+        ></iframe> 
+
+        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSe1odT9ibAZWNOL28ns9QKpC3C-ff8-xVIPWLGgJaLsqxzTyw/formResponse"
+        target="hidden_iframe"
+        onsubmit="startModal()"
+        method="POST"
+        id="mG61Hd">
+
+       <div class="input-group">
+        <input type="text" name="entry.2033456232" id="" required placeholder=" Nome *">
+        <input type="text" name="entry.1161806688" id="" required placeholder=" E-mail *">
+        <input type="text" name="entry.711904100" id="" placeholder=" Whats App ">
+       </div>
+
+        <div class="alert">
+          <h4>Não fazemos spam</h4>
+          <h4> * Campo Obrigatório </h4>
+        </div>
+
+        <div id="cta-ebook">
+          <button  class="button">Baixar meu Ebook</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 <nav>
   <div class="nav__container">
@@ -408,6 +453,7 @@
     <div class="copy" style="text-align: center;"><cite>Developed by <a href="https://github.com/rtavaresramos">Rodrigo Tavares Ramos</a> © 2020-2020</cite></div>
     </footer>
 <script src="./js/toggle.js"></script>
+ <script src="./js/ebook.js"></script>
 <script src="./js/wpp-control.js"></script>
 </body>
 </html>
