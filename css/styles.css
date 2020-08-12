@@ -977,12 +977,12 @@ li,
   }
 
   to {
-    height: 55vh;
+    height: 65vh;
   }
 }
 @keyframes toggleFadeOut {
   from {
-    height: 55vh;
+    height: 65vh;
   }
 
   to {
@@ -992,7 +992,7 @@ li,
 
 @media screen and (max-width: 935px) {
   nav {
-    height: 120px;
+    height: 80px;
   }
   nav .logo {
     z-index: 20;
@@ -1021,16 +1021,14 @@ li,
     animation: toggleFadeOut 1s;
   }
   .toggle-on {
-    height: 55vh;
+    height: 65vh;
     animation: toggleFadeIn 1s;
   }
   .toggle--control {
     position: absolute;
     z-index: 30;
   }
-  nav {
-    height: 120px;
-  }
+
   nav ul {
     position: absolute;
     left: -150px;
