@@ -43,3 +43,6 @@ box-shadow: 0 0 5px #000;
 display: flex;
 justify-content: center;
 }
+nav{
+    height: 120px!important;
+}
