@@ -29,15 +29,20 @@ a {
   color: var(--secundary-color);
   font-weight: bold;
 }
-
-
-.blog-place div.col-sm-12{
-padding-top: 10px;
+.blog-place div.col-sm-12 {
+    padding-top: 10px;
 padding-bottom: 10px;
 margin: 20px;
 border-radius: 14px;
 box-shadow: 0 0 5px #000; 
   background-color: #fff;
+}
+
+.blog-place div.col-sm-12 .rtb-col{
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 20px 30px;
+
 }
 .blog-place div.read-more{
 display: flex;
@@ -46,4 +51,10 @@ justify-content: center;
 nav{
     height: 120px!important;
     border-bottom: none;
+}
+
+@media screen and (max-width: 435px) {
+    div.blog-place div#rtb span div.row div.col-sm-12.rtb-col{
+   width: 325px !important;
+}
 }
