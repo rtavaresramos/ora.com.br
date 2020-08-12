@@ -977,12 +977,12 @@ li,
   }
 
   to {
-    height: 65vh;
+    height: 85vh;
   }
 }
 @keyframes toggleFadeOut {
   from {
-    height: 65vh;
+    height: 85vh;
   }
 
   to {
@@ -1021,7 +1021,7 @@ li,
     animation: toggleFadeOut 1s;
   }
   .toggle-on {
-    height: 65vh;
+    height: 85vh;
     animation: toggleFadeIn 1s;
   }
   .toggle--control {
