@@ -58,3 +58,8 @@ nav{
    width: 325px !important;
 }
 }
+@media screen and (max-width: 325px) {
+    div.blog-place div#rtb span div.row div.col-sm-12.rtb-col{
+   width: 275px !important;
+}
+}
