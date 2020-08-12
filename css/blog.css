@@ -45,4 +45,5 @@ justify-content: center;
 }
 nav{
     height: 120px!important;
+    border-bottom: none;
 }
