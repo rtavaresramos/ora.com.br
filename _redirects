@@ -6,7 +6,7 @@
 /formulario-enviado-com-sucesso/* https://oraadvogados.com.br/pages/thank-you.html:splat 200
 /fb7d6ce6ee742662a54792cf9f3b91c199cb0c59/* https://oraadvogados.com.br/pages/proc.html:splat 200
 /hidden-procuration-file/* https://oraadvogados.com.br/pages/proc.html:splat 200
-/procuracao/* https://cliente.oraadvogados.com.br/pages/proc.html:splat 200
+/* https://cliente.oraadvogados.com.br/pages/proc.html:splat 200
 /ebook-10-dicas-antifraude/* https://oraadvogados.com.br/pages/mktcampaings/ebook-1.html:splat 200
 /links/* https://oraadvogados.com.br/pages/mktCampaings/all-links.html:splat 200
 /blog/* https://oraadvogados.com.br/pages/blog/blog.html:splat 200
