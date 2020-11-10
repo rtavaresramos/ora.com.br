@@ -42,10 +42,16 @@ html{
 }
 
 #new-navbar{
+    display: flex !important;
+    justify-content: center !important;
     background: var(--navbar)!important;
     border: none !important;
     margin-bottom: 40px;
     box-shadow: 0 0  10px -5px #000!important;
+}
+
+.new-logo img{
+    width: 150px;
 }
 
 body{
