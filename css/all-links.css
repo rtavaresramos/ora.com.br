@@ -8,8 +8,24 @@ html{
     font-display: swap;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 :root{
+  --light: #f8f8f8;
+
+--gray-medium: #757474;
+
+--gray-light: #bcbcbc;
+
+--primary: #fb9e02;
+--primary-disabled: #F8DDAE;
+
+--gray-dark: #393838;
+
+--navbar: #fcf2e8;
+
+ --spacing: 0.4em;
+
 
     /* Colors */
     --primary-color:#fb9e02;
@@ -24,6 +40,18 @@ html{
     --opens:'Open Sans', sans-serif;
     --lato:'Lato', sans-serif;
 }
+
+#new-navbar{
+    background: var(--navbar)!important;
+    border: none !important;
+    margin-bottom: 40px;
+    box-shadow: 0 0  10px -5px #000!important;
+}
+
+body{
+    background: var(--light) !important;
+}
+
 .logo--mkt{
   margin: 0 0;
 }
@@ -129,6 +157,11 @@ html{
 
 .all-links__container .button__container{
   margin: 30px 0;
+
+}
+.all-links__container .button__container a{
+  background: #000 !important;
+  border: none!important;
 }
 
 @media screen and (max-width:850px){
