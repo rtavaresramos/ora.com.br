@@ -32,7 +32,7 @@ html {
   width: 100vw;
   overflow-x: hidden;
 
-  font-family: var(--lato);
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
