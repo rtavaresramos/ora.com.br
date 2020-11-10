@@ -1,29 +1,29 @@
-/servicos/* https://oraadvogados.com.br/pages/services/services.html:splat 200
-/servicos-aereo/* https://oraadvogados.com.br/pages/services/flight-services.html:splat 200
-/cobrancas/* https://oraadvogados.com.br/pages/services/charges-services.html:splat 200
-/compras-online/* https://oraadvogados.com.br/pages/services/buys-services.html:splat 200
-/perguntas-frequentes/* https://oraadvogados.com.br/pages/faq.html:splat 200
-/formulario-enviado-com-sucesso/* https://oraadvogados.com.br/pages/thank-you.html:splat 200
-/procuracao/* https://oraadvogados.com.br/pages/proc.html:splat 200
-/hidden-procuration-file/* https://oraadvogados.com.br/pages/proc.html:splat 200
+/servicos/* https://cliente.oraadvogados.com.br/pages/services/services.html:splat 200
+/servicos-aereo/* https://cliente.oraadvogados.com.br/pages/services/flight-services.html:splat 200
+/cobrancas/* https://cliente.oraadvogados.com.br/pages/services/charges-services.html:splat 200
+/compras-online/* https://cliente.oraadvogados.com.br/pages/services/buys-services.html:splat 200
+/perguntas-frequentes/* https://cliente.oraadvogados.com.br/pages/faq.html:splat 200
+/formulario-enviado-com-sucesso/* https://cliente.oraadvogados.com.br/pages/thank-you.html:splat 200
+/procuracao/* https://cliente.oraadvogados.com.br/pages/proc.html:splat 200
+/hidden-procuration-file/* https://cliente.oraadvogados.com.br/pages/proc.html:splat 200
 /* https://cliente.oraadvogados.com.br/pages/proc.html:splat 200
-/ebook-10-dicas-antifraude/* https://oraadvogados.com.br/pages/mktcampaings/ebook-1.html:splat 200
-/links/* https://oraadvogados.com.br/pages/mktCampaings/all-links.html:splat 200
-/blog/* https://oraadvogados.com.br/pages/blog/blog.html:splat 200
+/ebook-10-dicas-antifraude/* https://cliente.oraadvogados.com.br/pages/mktcampaings/ebook-1.html:splat 200
+/links/* https://cliente.oraadvogados.com.br/pages/mktCampaings/all-links.html:splat 200
+/blog/* https://cliente.oraadvogados.com.br/pages/blog/blog.html:splat 200
 
 
 <--Forumlários!-->
 
-/formulario-atraso-cancelamento/* https://oraadvogados.com.br/pages/forms/form-delay-flight.html:splat 200
-/formulario-bagagem/* https://oraadvogados.com.br/pages/forms/form-lugage.html:splat 200
-/overbooking-e-no-show/* https://oraadvogados.com.br/pages/forms/form-overbooking-e-no-show.html:splat 200
-/outros-problemas/* https://oraadvogados.com.br/pages/forms/form-all-other-problems.html:splat 200
-/outros-problemas-aereo/* https://oraadvogados.com.br/pages/forms/form-other-problems-flight.html:splat 200
-/outros-problemas-compras-online/* https://oraadvogados.com.br/pages/forms/form-other-problems-buys.html:splat 200
-/agua-e-luz/* https://oraadvogados.com.br/pages/forms/form-water-light.html:splat 200
-/cobranca-indevida/* https://oraadvogados.com.br/pages/forms/form-charges-not-valid.html:splat 200
-/negativaca-indevida/* https://oraadvogados.com.br/pages/forms/form-wrong-negativation.html:splat 200
-/compras-online-atraso/* https://oraadvogados.com.br/pages/forms/form-delivery-delay.html:splat 200
-/saude/* https://oraadvogados.com.br/pages/forms/form-health-plan.html:splat 200
+/formulario-atraso-cancelamento/* https://cliente.oraadvogados.com.br/pages/forms/form-delay-flight.html:splat 200
+/formulario-bagagem/* https://cliente.oraadvogados.com.br/pages/forms/form-lugage.html:splat 200
+/overbooking-e-no-show/* https://cliente.oraadvogados.com.br/pages/forms/form-overbooking-e-no-show.html:splat 200
+/outros-problemas/* https://cliente.oraadvogados.com.br/pages/forms/form-all-other-problems.html:splat 200
+/outros-problemas-aereo/* https://cliente.oraadvogados.com.br/pages/forms/form-other-problems-flight.html:splat 200
+/outros-problemas-compras-online/* https://cliente.oraadvogados.com.br/pages/forms/form-other-problems-buys.html:splat 200
+/agua-e-luz/* https://cliente.oraadvogados.com.br/pages/forms/form-water-light.html:splat 200
+/cobranca-indevida/* https://cliente.oraadvogados.com.br/pages/forms/form-charges-not-valid.html:splat 200
+/negativaca-indevida/* https://cliente.oraadvogados.com.br/pages/forms/form-wrong-negativation.html:splat 200
+/compras-online-atraso/* https://cliente.oraadvogados.com.br/pages/forms/form-delivery-delay.html:splat 200
+/saude/* https://cliente.oraadvogados.com.br/pages/forms/form-health-plan.html:splat 200
 
 /meu-ebook/* https://drive.google.com/file/d/16wtiftQeiJxa8ljVSiZEcBNsyIJiEjiu/view:splat 200
